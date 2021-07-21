@@ -1,4 +1,4 @@
-package lwl.ouc.concurrent;
+package lwl.ouc.concurrent.reentrant;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,10 +9,10 @@ import java.io.InputStreamReader;
  * @author wlli
  * @date 2021/07/20
  */
-public class Producer extends Thread {
-    TaskQueue task;
+public class Producer2 extends Thread {
+    TaskQueue2 task;
 
-    public Producer(TaskQueue task) {
+    public Producer2(TaskQueue2 task) {
         this.task = task;
     }
 

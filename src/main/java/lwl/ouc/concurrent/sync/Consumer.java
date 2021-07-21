@@ -1,4 +1,4 @@
-package lwl.ouc.concurrent;
+package lwl.ouc.concurrent.sync;
 
 /**
  * @author wlli

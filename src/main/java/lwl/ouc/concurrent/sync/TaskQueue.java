@@ -1,4 +1,4 @@
-package lwl.ouc.concurrent;
+package lwl.ouc.concurrent.sync;
 
 import java.util.LinkedList;
 import java.util.Queue;
